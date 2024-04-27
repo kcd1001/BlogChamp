@@ -12,7 +12,25 @@
   max-width: 800px; /* Limit width */
 }
 
+.profile-button {
+  color: #ffffff;
+  background-color: #094a91;
+}
+
+.profile-button:hover {
+  background-color: #DAA907;
+  color: black;
+}
+/* Profile info */
+.profile-info {
+  background-color: #FAF9F6; /* White background color */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  padding: 20px; /* Add padding */
+  margin-bottom: 20px; /* Add margin bottom */
+  border: 2px solid #002454;
 /* Container for bio box and add friend box */
+}
 .bio-and-friend-container {
   display: flex; /* Use flexbox */
 }
@@ -41,16 +59,6 @@
   color: #FAC01A; /* Set text color to yellow */
 }
 
-.bio-box button {
-  background-color: #FAC01A;
-  color: #000;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
 
 .bio-box button:hover {
   background-color: #E0A800;
@@ -107,17 +115,21 @@
   flex: 1; /* Take remaining space */
   max-width: 300px; /* Limit width */
   margin-left: 20px; /* Add left margin */
-  color: #FAC01A; /* Set text color to yellow */
+  color: #002454; /* Set text color to yellow */
 }
 
 /* Styles for profile title */
 .profile-title {
   font-size: 24px; /* Example font size for profile title */
   margin-bottom: 20px; /* Add margin bottom */
-  color: #FAC01A; /* Set text color to dark gray */
+  color: #002454; /* Set text color to dark gray */
 }
 
 /* Styles for h2 in friends list */
 .friends-list h2 {
-  color: #FAC01A; /* Set text color to yellow */
+  color: #002454; /* Set text color to yellow */
+}
+
+.add-friend h2{
+  color: #002454; /* Set text color to yellow */
 }
