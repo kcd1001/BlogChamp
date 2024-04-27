@@ -20,7 +20,7 @@
 /* Styles for bio box */
 .bio-box {
   flex: 1; /* Take equal space */
-  background-color: #f8f8f8;
+  background-color: #3366d5d8;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
@@ -32,13 +32,13 @@
 .bio-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: black;
+  color: #FAC01A; /* Set text color to yellow */
 }
 
 .bio-box p {
   font-size: 1rem;
   line-height: 1.5;
-  color: #333;
+  color: #FAC01A; /* Set text color to yellow */
 }
 
 .bio-box button {
@@ -63,8 +63,8 @@
 /* Styles for add friend box */
 .add-friend-box {
   flex: 1; /* Take equal space */
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
+  background-color: #3366d5d8;
+  border: 1px solid #FAC01A; /* Set text color to yellow */
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -74,7 +74,7 @@
 .add-friend-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: black;
+  color: #FAC01A; /* Set text color to yellow */
 }
 
 .add-friend-box p {
